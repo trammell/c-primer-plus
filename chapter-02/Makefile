@@ -2,7 +2,7 @@ usage:
 	@echo "usage: make [clean]"
 
 clean:
-	rm -f inform *.o
+	git clean -dfX
 
 all: simple
 
