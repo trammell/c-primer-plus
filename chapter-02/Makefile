@@ -4,9 +4,8 @@ usage:
 clean:
 	rm -f inform *.o
 
-all: inform
+all: simple
 
-inform: inform.c
-	cc -Wno-implicit-int -o inform inform.c
-
+simple: simple.c
+	cc -Wno-implicit-int -o simple simple.c
 
