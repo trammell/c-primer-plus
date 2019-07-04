@@ -5,7 +5,7 @@ usage:
 	@echo "usage: make [clean]"
 
 clean:
-	rm -f goldenyou
+	rm -f goldenyou printing sizeof
 	git clean -dfX
 
 all: goldenyou
